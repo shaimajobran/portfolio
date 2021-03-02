@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background:url('../images/component.png') ;
+  background-size: cover;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:left;
+}
+.header {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #a5859c;
+  color: #ffffff;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("C:\Users\shaim\Desktop\portfolio\images\pastel-colour-feather-abstract-background_66899-1264.jpg");
+
+  min-height: 30px;
+}
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+  
+}
+.header h1{
+  color: white;
+}
+
+
+/*changed elemment to nav*/
+.header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+.header nav :hover {
+  
+  color: black;
+}
+.header nav ul {
+  list-style-type: none;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  flex-grow: 2;
+
+
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+aside {
+  flex: 1;
+  background-color: #b9c6ae;
+  padding: 80px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+section {
+  flex: 0 0 200px;
+  background-color:#f0dddd;
+  padding:20px;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 50px;
+      box-shadow: 10px 10px 5px #aaaaaa;
+      margin: 20px;
+}
+
+img {
+
+  width: 20%;
+  
+}
+section a {
+  width: 20%;
+}
+a img{
+  width: 100%;
+}
+.box{
+  width: 100%;
+  margin: 1rem; 
+  display: flex;
+  align-items: flex-start;
+}
+.photo {
+  padding: 20px 10px;
+  border: 2px solid #bfbfbf;
+  background-color: #fff;
+}
+
+/* We can use rotate to rotate the photo to the left or right */
+.AboutMe ,#My-Work,#Contact{
+  /*transform: scale(1.5,);*/
+  display:flex;
+  align-items: center;
+}
+
+/* We can use scale to stretch the photo vertically or horizontally */
+.Mywork {
+  transform: scale(1.5, );
+}
+
+/* We can use skew to skew the photo to the left or right */
+.contact{
+  transform: scale(1.5, 1);
+}
+
+  
