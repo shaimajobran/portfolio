@@ -5,7 +5,7 @@
 }
 
 body {
-  background:url('C:/Users/shaim/Desktop/portfolio/images/pexels-photo-255379.jpeg');
+  background: url("C:/Users/shaim/Desktop/portfolio/assets/images/pexels-photo-255379.jpeg");
   background-size: cover;
 }
 main {
@@ -20,12 +20,11 @@ main {
   color: #ffffff;
 }
 
-.bg-img {
-  /* The image used */
-  background-image: url("C:\Users\shaim\Desktop\portfolio\images\pastel-colour-feather-abstract-background_66899-1264.jpg");
+/*.bg-img {
+  background-image: url("C:\Users\shaim\Desktop\portfolio\assets\images\pexels-photo-255379.jpeg");
   min-height: 30px;
   margin: 0;
-}
+}*/
 .header h1 {
   display: inline-block;
   font-size: 48px;
