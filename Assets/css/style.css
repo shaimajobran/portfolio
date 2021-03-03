@@ -5,7 +5,7 @@
 }
 
 body {
-  background: url("C:/Users/shaim/Desktop/portfolio/Assets/images/pexels-photo-255379.jpeg");
+  background: url("C:/Users/shaim/Desktop/portfolio/images/pexels-photo-255379.jpeg");
   background-size: cover;
 }
 main {
@@ -21,7 +21,7 @@ main {
 }
 
 .bg-img {
-  background-image: url("C:\Users\shaim\Desktop\portfolio\Assets\images\pexels-photo-255379.jpeg");
+  background-image: url("C:\Users\shaim\Desktop\portfolio\images\pexels-photo-255379.jpeg");
   min-height: 30px;
   margin: 0;
 }
