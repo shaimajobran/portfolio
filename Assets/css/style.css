@@ -20,26 +20,25 @@ main {
   color: #ffffff;
 }
 
-/*.bg-img {
+.bg-img {
   background-image: url("C:\Users\shaim\Desktop\portfolio\assets\images\pexels-photo-255379.jpeg");
   min-height: 30px;
   margin: 0;
-}*/
+}
 .header h1 {
   display: inline-block;
   font-size: 48px;
+  color: white;
   
 }
-.header h1{
-  color: white;
-}
+
 .header h2{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style:oblique;
   
 }
 
-/*changed elemment to nav*/
+
 .header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -60,10 +59,7 @@ main {
   margin-left: 25px;
 }
 
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
+
 
 p {
   font-size: 16px;
