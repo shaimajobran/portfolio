@@ -5,7 +5,7 @@
 }
 
 body {
-  background:url('../images/component.png') ;
+  background:url('C:/Users/shaim/Desktop/portfolio/images/pexels-photo-255379.jpeg');
   background-size: cover;
 }
 main {
@@ -23,8 +23,8 @@ main {
 .bg-img {
   /* The image used */
   background-image: url("C:\Users\shaim\Desktop\portfolio\images\pastel-colour-feather-abstract-background_66899-1264.jpg");
-
   min-height: 30px;
+  margin: 0;
 }
 .header h1 {
   display: inline-block;
@@ -34,7 +34,11 @@ main {
 .header h1{
   color: white;
 }
-
+.header h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style:oblique;
+  
+}
 
 /*changed elemment to nav*/
 .header nav {
@@ -66,6 +70,8 @@ p {
   font-size: 16px;
   font-family: Georgia, 'Times New Roman', Times, serif ;
   flex-grow: 2;
+  line-height: 2;
+  margin: 23px;
 
 
 }
@@ -77,18 +83,11 @@ main {
   flex-direction: column;
 }
 
-aside {
-  flex: 1;
-  background-color: #b9c6ae;
-  padding: 80px;
-  text-align: left;
-  display: flex;
-  align-items: center;
-}
+
 
 section {
   flex: 0 0 200px;
-  background-color:#f0dddd;
+  background-color:#ddebf0;
   padding:20px;
       border-style: solid;
       border-width: 1px;
@@ -97,44 +96,77 @@ section {
       margin: 20px;
 }
 
+
 img {
 
   width: 20%;
   
 }
+
 section a {
   width: 20%;
 }
 a img{
   width: 100%;
+
 }
+
 .box{
   width: 100%;
   margin: 1rem; 
   display: flex;
   align-items: flex-start;
 }
-.photo {
-  padding: 20px 10px;
-  border: 2px solid #bfbfbf;
-  background-color: #fff;
-}
+ 
 
-/* We can use rotate to rotate the photo to the left or right */
-.AboutMe ,#My-Work,#Contact{
-  /*transform: scale(1.5,);*/
+
+.AboutMe , #portfolio, #Contact{
+  transform: scale(1.5,);
   display:flex;
   align-items: center;
 }
 
-/* We can use scale to stretch the photo vertically or horizontally */
-.Mywork {
-  transform: scale(1.5, );
+
+#contact {
+  height: 200px;
+  display: flex;
+  align-items: center;
 }
 
-/* We can use skew to skew the photo to the left or right */
-.contact{
-  transform: scale(1.5, 1);
+#contact-info {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#contact-info a:hover {
+  background-color: var(--font-cream);
+  border-radius: 50px;
+}
+/* footer */
+
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+.footer h3 {
+  font-size: 20px;
+ 
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
 }
 
   
