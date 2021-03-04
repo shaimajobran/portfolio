@@ -5,7 +5,7 @@
   --header-size: 60px;
   --border-radius: 15px;
 
-  --text-header: 'serif';
+  --text-header: 'Newsreader';
   --text-normal: 'Newsreader', serif;
   --line-height: 27px;
 }
@@ -335,8 +335,7 @@ footer p:after {
       margin-bottom: 10px;
   }
 
-  /* This flexes EcoValuator and IsItDry? cards to have reverse order
-  so that their image comes before their text */
+
   .column-reverse {
       flex-direction: column-reverse;
   }
@@ -356,7 +355,7 @@ footer p:after {
   }
 
 
-  /* <section> - Contact */
+  /*  Contact */
 
   #contact {
       height: 200px;
@@ -365,7 +364,7 @@ footer p:after {
 
 @media screen and (max-width: 695px) {
 
-  /* <section> - Work Portfolio */
+  /* Work Portfolio */
 
   #work-portfolio {
       height: 2950px;
@@ -378,7 +377,7 @@ footer p:after {
 
 @media screen and (max-width: 593px) {
 
-  /* <header> */
+  /* header */
 
   header {
       height: 175px;
@@ -388,13 +387,13 @@ footer p:after {
       font-size: 45px;
   }
 
-  /* <section> - About Me */
+  /*  About Me */
 
   #about-me-section {
       height: 500px;
   }
 
-  /* <section> - Work Portfolio */
+  /* Work Portfolio */
 
   #work-portfolio {
       height: 3050px;
@@ -407,6 +406,13 @@ footer p:after {
 
 @media screen and (max-width: 493px) {
 
+  header {
+      height: 180px;
+  }
+
+  header h1 {
+      font-size: px;
+  }
   #work-portfolio {
       height: 3200px;
   }
