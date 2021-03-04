@@ -65,8 +65,8 @@ nav a {
 }
 
 nav a:hover {
-  font-size: 56px;
-  color:white;
+  font-size: 55px;
+  color: white;
 }
 
 
@@ -92,8 +92,8 @@ section div:nth-child(2) {width: 60%;}
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: var(--text-normal);
-  color: var(--font-cream);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .about-me h2 {
@@ -125,7 +125,8 @@ section div:nth-child(2) {width: 60%;}
 #work-portfolio {
   height: 2200px;
   display: inline-block;
-  width: 100%
+  width: 100%;
+  
 }
 
 #work-portfolio h2 {
@@ -143,7 +144,6 @@ section div:nth-child(2) {width: 60%;}
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  color: var(--font-cream);
   margin: 10px;
 }
 
@@ -178,17 +178,11 @@ section div:nth-child(2) {width: 60%;}
   font-size: 45px;
 }
 
-.card-text p {
-  width: 80%;
-  font-family: var(--text-normal);
-  font-size: 19px;
-}
 
 .card-text a {
   text-decoration: none;
-  color: var(--font-pink);
+ 
 }
-
 
 
 /* Contact info */
@@ -201,22 +195,16 @@ section div:nth-child(2) {width: 60%;}
 
 #contact-info {
   display: flex;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
   width: 100%;
   
 }
-
-#contact-info a:hover {
-  background-color: var(--font-cream);
-  border-radius: 50px;
-}
-
 
 
 /* footer */
 
 footer {
-  background-color: var(--background-black);
+  background-color: rgb(97, 138, 156);
   height: 50px;
   display: flex;
   justify-content: center;
@@ -228,7 +216,7 @@ footer {
 
 footer p:after {
   content: ' Shaima Jobran';
-  color: var(--font-pink);
+ 
 }
 
 @media screen and (max-width: 1245px) {
@@ -419,8 +407,6 @@ footer p:after {
 
 @media screen and (max-width: 493px) {
 
-  /* <section> - Work Portfolio */
-
   #work-portfolio {
       height: 3200px;
   }
@@ -438,6 +424,7 @@ footer p:after {
 }
 
 }
+
 
 
 
