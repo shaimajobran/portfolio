@@ -203,6 +203,7 @@ section div:nth-child(2) {width: 60%;}
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+  
 }
 
 #contact-info a:hover {
@@ -432,7 +433,13 @@ footer p:after {
       width: 350px;
       height: 275px;
   }
+  #about-me-section {
+    height: 550px;
 }
+
+}
+
+
 
 
 
