@@ -68,7 +68,7 @@ nav a {
 }
 
 nav a:hover {
-  -webkit-transition: font-size 0.5s;
+  --webkit-transition: font-size 0.5s;
   font-size: 55px;
   color: var(--font-cream);
   text-decoration: underline;
