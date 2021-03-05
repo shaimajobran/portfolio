@@ -19,6 +19,7 @@ html,body {
 main section:nth-child(odd) {background-color:lavenderblush}
 main section:nth-child(even) {background-color:lavender}
 
+/*header*/
 .header {
   padding: 20px;
   background-color: #a5859c;
@@ -113,7 +114,7 @@ a img{
   align-items:center;
 }
 
-
+/*portfolio*/
 
 .portfolio-section {
   display:flex;
